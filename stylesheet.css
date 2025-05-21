@@ -1,0 +1,59 @@
+/* .crop, h1, p, h2, Images*, Credit-link/
+/*
+light green #9FDC7F
+green #88BC95
+dark green #4C9057
+grey #CCD3FO
+light blue #8DDEFC
+brown #8D7E61
+"Barlow Semi Condensed", sans-serif;
+"Roboto", sans-serif;
+*/
+header {
+  text-align: center;
+}
+.crop {
+  width: 1000px;
+  height: 150px;
+  object-fit: cover;
+}
+body {
+  text-align: center;
+  background-color: #88bc95;
+  padding-top: 20px;
+  padding: 50px;
+  font-family: "Roboto" serif;
+}
+h1 {
+  color: #ccd3f0;
+  font-size: 48px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  line-height: 1;
+  letter-spacing: -5;
+}
+h2 {
+  font-size: 20px;
+  color: #ccd3f0;
+}
+p {
+  font-size: 16px;
+  color: #ccd3f0;
+}
+.Credit-link {
+  color: #4c9057;
+}
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: brown;
+}
+
+a:active {
+  color: brown;
+}
