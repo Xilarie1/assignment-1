@@ -1,4 +1,4 @@
-/* .crop, h1, p, h2, Images*, Credit-link/
+/* .crop, h1, p, h2, Images*, Credit-link, .content/
 /*
 light green #9FDC7F
 green #88BC95
@@ -11,18 +11,29 @@ brown #8D7E61
 */
 header {
   text-align: center;
+  margin: 0 auto;
 }
 .crop {
+  display: block;
+  margin: 0 auto;
   width: 1000px;
   height: 150px;
   object-fit: cover;
 }
+.content {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
 body {
+  align-content: center;
   text-align: center;
   background-color: #88bc95;
   padding-top: 20px;
   padding: 50px;
   font-family: "Roboto" serif;
+  margin: 0 auto;
 }
 h1 {
   color: #ccd3f0;
