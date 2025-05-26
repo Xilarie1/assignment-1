@@ -56,7 +56,9 @@ p {
 a {
   color: black;
 }
-
+a:link {
+  color: white;
+}
 a:visited {
   color: black;
 }
