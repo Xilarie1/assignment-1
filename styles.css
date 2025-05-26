@@ -1,0 +1,83 @@
+/* Colors and fonts */
+/* light green #9FDC7F */
+/* green #88BC95 */
+/* dark green #4C9057 */
+/* grey #CCD3F0 */
+/* light blue #8DDEFC */
+/* brown #8D7E61 */
+
+body {
+  background-color: #88bc95;
+  font-family: "Roboto", serif;
+  margin: 0;
+  padding: 50px 50px 20px 50px;
+  text-align: center; /* center all inline content including images and text */
+}
+
+header {
+  margin: 0 auto 40px auto;
+}
+
+.crop {
+  width: 1000px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.content {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #ccd3f0;
+  font-size: 48px;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  line-height: 1;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  color: #ccd3f0;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 16px;
+  color: #ccd3f0;
+  margin: 15px 0;
+}
+
+.Images {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+footer {
+  color: white;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:link {
+  color: #8ddefc; /* light blue — bright*/
+}
+
+a:visited {
+  color: #4c9057; /* dark green — distinct*/
+}
+
+a:hover {
+  color: #8d7e61; /* brown — warm tone*/
+}
+
+a:active {
+  color: #9fdc7f; /* light green — vibrant*/
+}
