@@ -25,6 +25,7 @@ header {
   margin: 0 auto;
   padding: 20px;
   text-align: center;
+  padding-bottom: 60px;
 }
 body {
   align-content: center;
@@ -34,6 +35,7 @@ body {
   padding: 50px;
   font-family: "Roboto" serif;
   margin: 0 auto;
+  position: relative;
 }
 h1 {
   color: #ccd3f0;
@@ -49,6 +51,15 @@ h2 {
 p {
   font-size: 16px;
   color: #ccd3f0;
+}
+footer {
+  background-color: grey;
+  text-align: center;
+  min-width: 100svw;
+  margin: 0 -50px;
+  position: absolute;
+  width: 100%;
+  height: 60px;
 }
 .Credit-link {
   color: #4c9057;
